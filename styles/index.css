@@ -1,0 +1,161 @@
+/* Importar la fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  background-color: #0B0A0A;
+  margin: 0;
+  padding: 0;
+} 
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos del encabezado */
+header {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  background-color: #F1E9E4;
+  padding: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #101619;
+  padding: 5px;
+}
+
+nav ul li input[type="text"] {
+  padding: 5px;
+}
+
+.user-actions .btn {
+  margin-left: 10px;
+  background-color: #EA371F;
+  color: #F1E9E4;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F1E9E4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #101619;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #EA371F;
+}
+
+.signup-button {
+  float: right;
+  margin-right: 10px; /* Opcional: añade margen entre los botones */
+}
+
+.signup-button button {
+  background-color: #EA371F;
+  border: none;
+  color: #F1E9E4;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+main {
+  padding: 20px;
+}
+
+.btnbanner1 {
+  margin-right: 10px;
+}
+.btnbanner1 {
+  background-color: #EA371F;
+  border: none;
+  color: #F1E9E4;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btnbanner2 {
+  margin-left: 1px;
+}
+
+.btnbanner2 {
+  background-color: #EA371F;
+  border: none;
+  color: #F1E9E4;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h1 {
+  color: #F1E9E4;
+  font-size: 50px;
+  margin-left: 150px;
+}
+
+.texto-blanco {
+  font-size: 20px;
+  margin-left: 150px;
+  color:#F1E9E4
+
+}
+
+
+.footer-texto-blanco{
+  color:#101619
+}
+
+footer {
+  background-color: #F1E9E4;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+

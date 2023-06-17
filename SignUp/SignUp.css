@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.form-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.botons {
+  margin-top: 10px;
+}
+
+a {
+  color: #EA371F;
+  text-decoration: underline;
+}

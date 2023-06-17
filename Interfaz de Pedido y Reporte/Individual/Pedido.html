@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interfaz de Pedido</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 400px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group select {
+      width: 100%;
+      padding: 5px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group input[type="submit"] {
+      width: auto;
+      padding: 8px 20px;
+      background-color: #EA371F;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .form-group input[type="submit"]:hover {
+      background-color: #EA371F;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="pedido">ID Pedido:</label>
+        <input type="text" id="pedido" name="pedido">
+      </div>
+
+      <div class="form-group">
+        <label for="cliente">Nombre Cliente:</label>
+        <input type="text" id="cliente" name="cliente">
+      </div>
+
+      <div class="form-group">
+        <label for="factura">ID Factura:</label>
+        <input type="text" id="factura" name="factura">
+      </div>
+
+      <div class="form-group">
+        <label for="direccion">Dirección Cliente:</label>
+        <input type="text" id="direccion" name="direccion">
+      </div>
+
+      <div class="form-group">
+        <label for="precio">Precio Unitario:</label>
+        <input type="text" id="precio" name="precio">
+      </div>
+
+      <div class="form-group">
+        <label for="telefono">Teléfono Celular:</label>
+        <input type="text" id="telefono" name="telefono">
+      </div>
+
+      <div class="form-group">
+        <label for="cantidad">Cantidad de Producto:</label>
+        <input type="text" id="cantidad" name="cantidad">
+      </div>
+
+      <div class="form-group">
+        <label for="pago">Forma de Pago:</label>
+        <select id="pago" name="pago">
+          <option value="efectivo">Efectivo</option>
+          <option value="tarjeta">Tarjeta de Crédito</option>
+          <option value="transferencia">Transferencia Bancaria</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="total">Total:</label>
+        <input type="text" id="total" name="total">
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Realizar Pedido">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

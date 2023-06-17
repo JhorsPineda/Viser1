@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interfaz de Pedido y Reporte</title>
+  <link rel="stylesheet" type="text/css" href="Pedidoyreporte.css">
+
+</head>
+<body>
+  <div class="container">
+    <h2>Pedido</h2>
+    <form>
+      <div class="form-group">
+        <label for="pedido">Pedido:</label>
+        <input type="text" id="pedido" name="pedido">
+      </div>
+
+      <div class="form-group">
+        <label for="cliente">Nombre Cliente:</label>
+        <input type="text" id="cliente" name="cliente">
+      </div>
+
+      <div class="form-group">
+        <label for="factura">ID Factura:</label>
+        <input type="text" id="factura" name="factura">
+      </div>
+
+      <div class="form-group">
+        <label for="direccion">Dirección Cliente:</label>
+        <input type="text" id="direccion" name="direccion">
+      </div>
+
+      <div class="form-group">
+        <label for="precio">Precio Unitario:</label>
+        <input type="text" id="precio" name="precio">
+      </div>
+
+      <div class="form-group">
+        <label for="telefono">Teléfono Celular:</label>
+        <input type="text" id="telefono" name="telefono">
+      </div>
+
+      <div class="form-group">
+        <label for="cantidad">Cantidad de Producto:</label>
+        <input type="text" id="cantidad" name="cantidad">
+      </div>
+
+      <div class="form-group">
+        <label for="pago">Forma de Pago:</label>
+        <select id="pago" name="pago">
+          <option value="efectivo">Efectivo</option>
+          <option value="tarjeta">Tarjeta de Crédito</option>
+          <option value="transferencia">Transferencia Bancaria</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="total">Total:</label>
+        <input type="text" id="total" name="total">
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Realizar Pedido">
+      </div>
+    </form>
+  </div>
+
+  <div class="report-form">
+    <h2>Reporte</h2>
+    <form>
+      <label for="nombre-producto">Nombre del Producto:</label>
+      <input type="text" id="nombre-producto" name="nombre-producto" required>
+
+      <label for="hora">Hora:</label>
+      <input type="text" id="hora" name="hora" required>
+
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="descripcion">Descripción:</label>
+      <textarea id="descripcion" name="descripcion" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+</body>
+</html>
